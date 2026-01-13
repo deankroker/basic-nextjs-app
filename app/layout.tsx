@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OpenCode",
   description: "OpenCode demo",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

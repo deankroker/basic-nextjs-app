@@ -219,12 +219,21 @@ export default function WorkshopPage({ readmeContent }: Props) {
       {/* Header */}
       <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
         <div className="mx-auto max-w-4xl px-6 py-6">
-          <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
-            OpenCode Workshop
-          </h1>
-          <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Learn to vibe code with AI using your Microsoft license
-          </p>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/azure-icon.png" 
+              alt="Azure" 
+              className="h-8 w-8 rounded-lg"
+            />
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+                OpenCode Workshop
+              </h1>
+              <p className="mt-0.5 text-sm text-zinc-600 dark:text-zinc-400">
+                Learn to vibe code with AI using your Microsoft license
+              </p>
+            </div>
+          </div>
 
           {/* Tabs */}
           <div className="mt-6 flex gap-1 border-b border-zinc-200 dark:border-zinc-700">
