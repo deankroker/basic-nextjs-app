@@ -20,7 +20,7 @@ This repo can be found at [https://github.com/deankroker/basic-nextjs-app](https
 - [ ] Install OpenCode: `curl -fsSL https://opencode.ai/install | bash`
 - [ ] Clone repo: `git clone https://github.com/deankroker/basic-nextjs-app`
 - [ ] Install [Node LTS with pnpm](https://nodejs.org/en/download/)
-- [ ] (Optional) Markdown editor: [Typora](https://typora.io/) (macOS) / [MarkText](https://www.marktext.cc/) (Windows)
+- [ ] (Optional) Markdown editor: [Typora](https://typora.io/) (macOS) / [MarkText](https://www.marktext.me/) (Windows)
 
 ### Essential Commands
 
